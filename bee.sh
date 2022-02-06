@@ -24,10 +24,4 @@ gunzip /usr/share/wordlists/rockyou.txt.gz > /dev/null 2>&1
 echo "${GREEN}[+] Cloning common CTF wordlists to folder...${NC}"
 cp /usr/share/wordlists/rockyou.txt rockyou.txt > /dev/null 2>&1
 cp /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt directory-list-2.3-medium.txt > /dev/null 2>&1
-echo "${GREEN}[+] Downloading LINPEAS...${NC}"
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20220203/linpeas.sh > /dev/null 2>&1
-echo "${GREEN}[+] Downloading winPEAS.bat...${NC}"
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20220203/winPEAS.bat > /dev/null 2>&1
-echo "${GREEN}[+] Downloading winPEASx64.exe...${NC}"
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20220203/winPEASx64.exe > /dev/null 2>&1
 echo "${GREEN}[+][+][+][+] YOUR KALI BOX IS READY TO CTF! [+][+][+][+]${NC}"
