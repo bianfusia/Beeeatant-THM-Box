@@ -30,4 +30,6 @@ echo "${GREEN}[+] Downloading winPEAS.bat...${NC}"
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20220203/winPEAS.bat > /dev/null 2>&1
 echo "${GREEN}[+] Downloading winPEASx64.exe...${NC}"
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20220203/winPEASx64.exe > /dev/null 2>&1
+echo "${GREEN}[+] Installing john...${NC}"
+sudo apt install john -y
 echo "${GREEN}[+][+][+][+] YOUR KALI BOX IS READY TO CTF! [+][+][+][+]${NC}"
