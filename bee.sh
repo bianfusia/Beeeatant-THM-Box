@@ -2,7 +2,7 @@
 sudo apt install figlet toilet -y > /dev/null 2>&1
 GREEN=$'\e[0;32m'
 NC=$'\e[0m'
-figlet -k "Beeeeatant THM Box"
+figlet -k "Beeeatant THM Box"
 echo""
 echo "*******developed by: @beeeatant**************"
 echo""
