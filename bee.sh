@@ -26,4 +26,5 @@ cp /usr/share/wordlists/rockyou.txt rockyou.txt > /dev/null 2>&1
 cp /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt directory-list-2.3-medium.txt > /dev/null 2>&1
 sudo apt install remmina -y > /dev/null 2>&1
 echo "${GREEN}[+] Installing RDP software remmina...${NC}"
+sudo apt install metasploit-framework -y > /dev/null 2>&1
 echo "${GREEN}[+][+][+][+] YOUR KALI BOX IS READY TO CTF! [+][+][+][+]${NC}"
