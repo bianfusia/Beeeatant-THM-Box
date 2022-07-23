@@ -15,3 +15,10 @@ chmod +x bee.sh
 sudo ./bee.sh
 ```
 4. Profit!
+
+5. Summary
+```
+wget https://raw.githubusercontent.com/bianfusia/Beeeatant-THM-Box/main/bee.sh
+chmod +x bee.sh
+sudo ./bee.sh
+```
