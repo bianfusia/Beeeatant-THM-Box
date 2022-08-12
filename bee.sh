@@ -28,4 +28,9 @@ sudo apt install remmina -y > /dev/null 2>&1
 echo "${GREEN}[+] Installing RDP software remmina...${NC}"
 sudo apt install metasploit-framework -y > /dev/null 2>&1
 echo "${GREEN}[+] Updating Metasploit...${NC}"
+apt-get remove --purge wpscan > /dev/null 2>&1
+apt autoremove > /dev/null 2>&1
+echo "${GREEN}[+] Removing faulty wpscan...${NC}"
+apt install wpscan -y > /dev/null 2>&1
+echo "${GREEN}[+] Reinstalling wpscan...${NC}"
 echo "${GREEN}[+][+][+][+] YOUR KALI BOX IS READY TO CTF! [+][+][+][+]${NC}"
