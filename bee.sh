@@ -27,6 +27,7 @@ cp /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt directory-list-2
 sudo apt install remmina -y > /dev/null 2>&1
 echo "${GREEN}[+] Installing RDP software remmina...${NC}"
 sudo apt install metasploit-framework -y > /dev/null 2>&1
+sudo msfdb reinit > /dev/null 2>&1
 echo "${GREEN}[+] Updating Metasploit...${NC}"
 apt-get remove --purge wpscan > /dev/null 2>&1
 apt autoremove -y > /dev/null 2>&1
