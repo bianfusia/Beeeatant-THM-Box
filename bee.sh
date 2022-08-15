@@ -34,4 +34,6 @@ apt autoremove -y > /dev/null 2>&1
 echo "${GREEN}[+] Removing faulty wpscan...${NC}"
 apt install wpscan -y > /dev/null 2>&1
 echo "${GREEN}[+] Reinstalling wpscan...${NC}"
+cp /home/kali/.bashrc ~/.bashrc > /dev/null 2>&1
+echo "${GREEN}[+] Colouring your terminal...${NC}"
 echo "${GREEN}[+][+][+][+] YOUR KALI BOX IS READY TO CTF! [+][+][+][+]${NC}"
