@@ -29,3 +29,6 @@ wget https://raw.githubusercontent.com/bianfusia/Beeeatant-THM-Box/main/batrecon
 chmod +x batrecon.py
 ./batrecon.py
 ```
+
+# TODO
+1. subdomain list from ```https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains-10000.txt```
