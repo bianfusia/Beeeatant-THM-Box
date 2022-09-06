@@ -22,3 +22,10 @@ wget https://raw.githubusercontent.com/bianfusia/Beeeatant-THM-Box/main/bee.sh
 chmod +x bee.sh
 sudo ./bee.sh
 ```
+# Batrecon.py
+- This is a simple nmap recon script meant for OSCP and CTF uses only.
+```
+wget https://raw.githubusercontent.com/bianfusia/Beeeatant-THM-Box/main/batrecon.py
+chmod +x batrecon.py
+./batrecon.py
+```
