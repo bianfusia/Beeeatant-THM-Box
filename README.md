@@ -27,7 +27,7 @@ sudo ./bee.sh
 ```
 wget https://raw.githubusercontent.com/bianfusia/Beeeatant-THM-Box/main/batrecon.py
 chmod +x batrecon.py
-./batrecon.py
+python3 batrecon.py
 ```
 
 # TODO
