@@ -28,7 +28,7 @@ with open('fullport.txt') as f:
 
 skip_lines = 5
 skip_end_lines = 3
-newlines = lines[5:-3]
+newlines = lines[5:-2]
 print(str(len(newlines)) + " ports detected.")
 
 for line in newlines:
