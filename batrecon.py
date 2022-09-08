@@ -39,20 +39,21 @@ all_ports_str = (','.join(all_ports))
 print("Ports included in list: " + all_ports_str)
 
 # SCANNING VERSIONS AND COMMON SCRIPTS
-
+print("#################################################################")
 command = "nmap -sC -sV -p " + all_ports_str + " -oN versionscan " + ip_addr
 print("checking versions and common scripts")
 print(command)
 os.system(command)
 
 # SCANNING FOR VULNERABLE
-
-command = "nmap --script vuln -p " + all_ports_str + " -oN versionscanvulnscan " + ip_addr
+print("#################################################################")
+command = "nmap --script vuln -p " + all_ports_str + " -oN vulnscan " + ip_addr
 print("checking for common vulns in open ports")
 print(command)
 os.system(command)
 
 # NIKTO IF 80 OR 443 OPEN
+print("#################################################################")
 if "80" in all_ports or "443" in all_ports:
     
     command = "nikto -h " + ip_addr
