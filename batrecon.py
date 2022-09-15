@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # This script aim to automate some standard Nmap scans for OSCP/CTF uses
 # command to run includes:
 # 1. export IP=$IP - a bit too much work to do this, so ignore.
