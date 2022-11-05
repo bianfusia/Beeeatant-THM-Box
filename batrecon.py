@@ -18,7 +18,7 @@ all_ports = []
 # DETECTING EXISTING PORTS
 ip_addr = input("Target IP address: ")
 print("Begin scanning target: " + ip_addr)
-command = "nmap -p- --max-rate=10000 -oN fullport.txt " + ip_addr
+command = "nmap -p- -Pn -T4 -oN fullport.txt " + ip_addr
 print(command)
 os.system(command)
 
@@ -40,14 +40,14 @@ print("Ports included in list: " + all_ports_str)
 
 # SCANNING VERSIONS AND COMMON SCRIPTS
 print("#################################################################")
-command = "nmap -sC -sV -p " + all_ports_str + " -oN versionscan " + ip_addr
+command = "nmap -sC -sV -Pn -p " + all_ports_str + " -oN versionscan " + ip_addr
 print("checking versions and common scripts")
 print(command)
 os.system(command)
 
 # SCANNING FOR VULNERABLE
 print("#################################################################")
-command = "nmap --script vuln -p " + all_ports_str + " -oN vulnscan " + ip_addr
+command = "nmap --script vuln -Pn -p " + all_ports_str + " -oN vulnscan " + ip_addr
 print("checking for common vulns in open ports")
 print(command)
 os.system(command)
