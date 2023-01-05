@@ -30,5 +30,9 @@ chmod +x batrecon.py
 python3 batrecon.py
 ```
 
-# TODO
+## TODO
 1. subdomain list from ```https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains-10000.txt```
+
+
+# Batradar.sh
+- This is a simple tool that list down all your files in a directory into `allfiles.txt`. It looks through all files and highlight files that has the word "password" in it.
